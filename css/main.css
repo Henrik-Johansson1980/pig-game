@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+html,body{
+  box-sizing: border-box;
+  padding: 0;
+  margin:0;
+}
+
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(#e66465, #9198e5);
+  color:#fff;
+  font-family: 'Josefin Sans','Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+h1, h3{
+  font-weight: 200;
+  text-transform: uppercase;
+}
+div {
+  font-weight: 200;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  height: 15vh;
+}
+
+header h1{
+  font-size: 3rem;
+}
+
+main{
+  width:70%;
+  height: 70vh;
+  display: flex;
+  justify-content: space-evenly;
+  background: rgba(255, 255, 255, .6);
+  border: solid 1px white;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  -ms-border-radius: 150px;
+  -o-border-radius: 150px;
+  color:#333;
+}
+
+section{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+
+section h3{
+  font-size: 1.5rem;
+}
+
+
+main section:nth-child(2){
+  padding: 0 10vw;
+  border-left: solid 1px white;
+  border-right:  solid 1px white;
+}
+
+footer{
+  display: flex;
+  align-items: center;
+  height: 15vh;
+}
+
+button{
+  border: solid 1px #333;
+  border-radius:5px;  
+  font-size: 1.2rem;
+  padding: .5rem;
+  background: transparent;
+  cursor: pointer;
+  color:#333;
+}
+
+button:hover,
+button:focus{
+  transition: ease-in .4s;
+  border-radius:5px;
+  font-size: 1.2rem;
+  padding: .5rem;
+  background: #333;
+  cursor: pointer;
+  color: #fff;
+  -webkit-transition: ease-in .4s;
+  -moz-transition: ease-in .4s;
+  -ms-transition: ease-in .4s;
+  -o-transition: ease-in .4s;
+}
+
+.player-score{
+  font-size: 2.5rem;
+}
+
+.player-current-box{
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+
