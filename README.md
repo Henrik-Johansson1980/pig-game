@@ -1,4 +1,4 @@
 # pig-game
 A Pig Game Written in Javascript
 Inline-style: 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://github.com/Henrik-Johansson1980/pig-game/blob/master/preview.png "Pig Game")
